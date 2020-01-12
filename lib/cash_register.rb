@@ -1,5 +1,5 @@
 class CashRegister
-  
+
 end
 
 # cr = CashRegister.new
