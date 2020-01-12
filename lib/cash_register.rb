@@ -1,8 +1,8 @@
 class CashRegister
   attr_accessor :total, :discount
 
-  def initialize(total, discount = 0)
-    @total = total
+  def initialize(discount = 0)
+    @total = 0
     @discount = discount
   end
 
@@ -31,7 +31,7 @@ end
 # cr.add_item("tomato", 1.76, 3)
 # puts cr.items
 
-cr = CashRegister.new
+cr = CashRegister.new()
 cr.add_item("apple", 0.99)
 cr.add_item("tomato", 1.76)
 cr.void_last_transaction
