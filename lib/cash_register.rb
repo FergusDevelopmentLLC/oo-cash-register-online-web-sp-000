@@ -44,7 +44,7 @@ end
 # cr.void_last_transaction
 # puts cr.total
 
-# cr = CashRegister.new(20)
-# cr.add_item("macbook air", 1000)
-# cr.apply_discount
-# puts cr.total
+cr = CashRegister.new(20)
+cr.add_item("macbook air", 1000)
+cr.apply_discount
+puts cr.total
