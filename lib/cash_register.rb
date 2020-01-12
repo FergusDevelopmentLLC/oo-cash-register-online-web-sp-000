@@ -28,7 +28,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    self.purchased_items
+    puts self.transactions
   end
 
 end
