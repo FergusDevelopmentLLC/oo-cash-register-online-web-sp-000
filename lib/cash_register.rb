@@ -4,7 +4,7 @@ class CashRegister
   def initialize(discount = 0)
     @total = 0.to_f
     @discount = discount
-    @items = []
+    @items = [1]
   end
 
   def add_item(item, price, quantity = 1)
