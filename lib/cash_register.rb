@@ -32,7 +32,7 @@ end
 # puts cr.items
 
 cr = CashRegister.new()
-cr.add_item("apple", 0.99)
-cr.add_item("tomato", 1.76)
-cr.void_last_transaction
-puts cr.total
+# cr.add_item("apple", 0.99)
+# cr.add_item("tomato", 1.76)
+# cr.void_last_transaction
+# puts cr.total
